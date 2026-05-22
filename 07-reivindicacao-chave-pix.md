@@ -1,0 +1,16 @@
+## Ticket #07 — Reivindicação de chave Pix recebida, confirmar ou cancelar?
+
+## 1. Compreensão do problema
+
+
+## 2. Plano de investigação
+
+
+## 3. Hipóteses 
+
+
+## 4. Mensagem para o cliente
+
+
+## 5. Acompanhamento interno
+

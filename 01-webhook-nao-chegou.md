@@ -1,6 +1,7 @@
 # Ticket #01 — Webhook não chegou após pagamento confirmado
 
 ## 1. Compreensão do problema
+
 O pagamento das cobranças foi concluído (`COMPLETED`), porém o cliente não recebeu o webhook `OPENPIX:TRANSACTION_RECEIVED`. Mesmo esperando mais de 40 minutos.
 
 O problema não parece estar no pagamento, mas sim em alguma falha na comunicação entre a Woovi e o sistema do cliente. Como eles dependem do webhook para liberar saldo ao usuário final, podendo gerando reclamações de “pagou e não caiu”.
