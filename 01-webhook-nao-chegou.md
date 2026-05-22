@@ -1,11 +1,9 @@
 # Ticket #01 — Webhook não chegou após pagamento confirmado
 
 ## 1. Compreensão do problema
-O cliente Acme Gateway informa que três cobranças aparecem com status `COMPLETED`, porém o webhook `OPENPIX:TRANSACTION_RECEIVED` não foi recebido mesmo aguardando 40 minutos.
+O pagamento das cobranças foi concluído (`COMPLETED`), porém o cliente não recebeu o webhook `OPENPIX:TRANSACTION_RECEIVED`. Mesmo esperando mais de 40 minutos.
 
-O problema não aparenta estar no pagamento em si, pois as cobranças já foram concluídas com sucesso. O problema está na comunicação automática entre a Woovi e o sistema do cliente, que depende do webhook para creditar saldo ao usuário final.
-
-O impacto do problema é alto, pois enquanto o webhook não chega, o cliente final entende que “pagou e não caiu”, gerando reclamações e potencial escalabilidade do incidente caso mais transações sejam afetadas.
+O problema não parece estar no pagamento, mas sim em alguma falha na comunicação entre a Woovi e o sistema do cliente. Como eles dependem do webhook para liberar saldo ao usuário final, podendo gerando reclamações de “pagou e não caiu”.
 
 ## 2. Plano de investigação
 
@@ -41,6 +39,8 @@ Boa tarde tudo bem?
 Vou verificar a situação e ja lhe retorno.
 
 **Explicando a situação**
+
+
 
 
 
