@@ -4,11 +4,11 @@ Repositório com minha resolução do desafio de **Customer Success Tech (CS Tec
 
 O objetivo do desafio é analisar tickets fictícios de suporte técnico ao cliente e explicar:
 
-- minha compreensão do problema;
-- como eu investigaria;
-- possíveis hipóteses;
-- resposta ao cliente;
-- acompanhamento interno.
+- Minha compreensão do problema;
+- Como eu investigaria;
+- Possíveis hipóteses;
+- Resposta ao cliente;
+- Acompanhamento interno.
 
 A ideia foi responder os tickets mostrando meu raciocínio, entendimento do contexto e como eu tentaria resolver cada situação.
 
