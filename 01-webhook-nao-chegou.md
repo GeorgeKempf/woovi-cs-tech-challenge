@@ -7,23 +7,13 @@ O problema não parece estar no pagamento, mas sim em alguma falha na comunicaç
 
 ## 2. Plano de investigação
 
-Verificar confirguração do webhook, se o mesmo esta configurado corretamente.
+Primeiro eu verificaria se o webhook está configurado corretamente.
 
-Validar as charges/transaction internamente
-   - Confirmar se as três cobranças realmente estão com status `COMPLETED`;
-   - Verificar a data e hora do webhook (se foi enviado)
+Em seguida eu verificaria se as três cobranças realmente estão como `COMPLETED` e se o evento `OPENPIX:TRANSACTION_RECEIVED` foi gerado, pois pela documentação esse evento deve ser enviado quando uma transação é recebida.
 
-Confirmar geração do evento
-   - Verificar se o evento `OPENPIX:TRANSACTION_RECEIVED` foi criado corretamente.
+Depois eu analisaria os logs do webhook para saber se houve tentativa de envio, erro HTTP, timeout ou alguma falha no endpoint. Como a documentação informa que a Woovi faz retentativas em caso de falha, eu também verificaria se essas retentativas aconteceram.
 
-Analisar entrega do webhook
-   - Validar logs de envio;
-   - Conferir possíveis falhas na entrega.
-   - Verificar erros no recebimentos do webhook
-
- Investigar possível incidente
-   - Verificar se outros clientes foram afetados no mesmo período;
-   - Analisar filas de webhook e possíveis atrasos operacionais.
+Por fim, eu verificaria se o problema aconteceu apenas com esse cliente ou se existia algum atraso/incidente afetando outros webhooks no mesmo período.
 
 ## 3. Hipóteses 
 
