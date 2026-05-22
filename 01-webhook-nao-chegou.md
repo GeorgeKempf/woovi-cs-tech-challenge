@@ -17,23 +17,28 @@ Por fim, eu verificaria se o problema aconteceu apenas com esse cliente ou se ex
 
 ## 3. Hipóteses 
 
-1. Delay na fila do webhooks
-2. Falha na entrega do webhook
-3. Validar o Webhook cadastrado
+1. **Falha na entrega automática do webhook**
+   - Pensei nisso porque o reenvio manual funcionou, então talvez o problema tenha sido no fluxo automático de envio.
+   - Confirmaria olhando os logs de envio e as tentativas de retry.
+
+2. **Problema parcial ou intermitente**
+   - Como outras cobranças chegam normalmente, não parece ser uma falha geral.
+   - Confirmaria verificando se outros clientes ou cobranças tiveram atraso parecido no mesmo período.
+
+3. **Configuração do webhook**
+   - Eu também validaria se o webhook cadastrado está correto, mesmo sendo menos provável, porque o cliente informou que recebe outras cobranças.
+   - Confirmaria comparando a URL configurada e os eventos habilitados.
 
 ## 4. Mensagem para o cliente
 
-**Primeira mensagem ao cliente**
+Boa tarde, tudo bem?
 
-Boa tarde tudo bem?
-Vou verificar a situação e ja lhe retorno.
+Vou verificar os IDs que você me encaminhou, junto com as cobranças para entender melhor se houve algum atraso ou falha no envio do webhook, vou verificar também se teve mais casos parecidos.
 
-**Explicando a situação**
-
-
-
-
-
-
+Assim que eu conseguir mais informações eu lhe retorno.
 
 ## 5. Acompanhamento interno
+
+Se eu identificasse falha no envio automático do webhook, abriria um chamado interno para o time responsável verificar o problema.
+
+Caso percebesse que aconteceu com outros clientes também, trataria como possível incidente interno para investigar o impacto.
