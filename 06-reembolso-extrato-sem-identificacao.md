@@ -12,7 +12,7 @@ Então o cliente quer entender se é possível incluir informações como destin
 
 ## 2. Plano de investigação
 
-Eu primeiramente confirmaria se no sistema existem dados para identificar aquele reembolso
+Eu primeiramente confirmaria se no sistema existem dados para identificar aquele reembolso.
 
 Depois eu verificaria se essas informações de destinatário, `endToEndId` ou `correlationID` deveriam aparecer no extrato ou se isso é uma limitação atual.
 
@@ -38,9 +38,7 @@ Boa tarde, tudo bem?
 
 Entendi a situação e vou verificar as informações do extrato de reembolso para confirmar se esses dados como `endToEndId`, `correlationID` e destinatário deveriam aparecer ou se existe alguma limitação atual.
 
-Vou conferir tambem a documentação e entender melhor como essas informações estão sendo tratadas nesse caso.
-
-Vou conferir tambem como essas informações estao especificadas na documentação para tratar da melhor forma esse seu caso, assim evita que essa dúvida continue acontecendo
+Vou conferir tambem as informações da documentação e entender melhor como essas informações estão sendo tratadas nesse caso, assim evita que essa dúvida continue acontecendo.
 
 Assim que eu tiver uma resposta mais clara, retorno para você por aqui.
 
