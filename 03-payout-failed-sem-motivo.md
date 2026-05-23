@@ -1,4 +1,4 @@
-## Ticket #03 — Pagamento FAILED com error.codee providerRejectedReasonvazios
+## Ticket #03 — Pagamento FAILED com error.codee providerRejectedReasonvazios 
 
 ## 1. Compreensão do problema
 
@@ -14,3 +14,4 @@
 
 ## 5. Acompanhamento interno
 
+`FAZER NO COWORK`
