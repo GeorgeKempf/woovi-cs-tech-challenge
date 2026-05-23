@@ -13,5 +13,3 @@
 
 
 ## 5. Acompanhamento interno
-
-`FAZER NO COWORK`
