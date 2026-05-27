@@ -28,7 +28,7 @@ E verificaria se teve casos parecidas ou registros de comportamento suspeito de 
 
 ## 4. Mensagem para o cliente
 
-Boa tarde! tudo bem?
+Boa tarde, tudo bem?
 
 Entendo sua preocupação, mas pode ficar calma que vou verificar essa situação com você. Por acaso mais alguém da empresa tem acesso a esse e-mail ou às contas da pizzaria?
 

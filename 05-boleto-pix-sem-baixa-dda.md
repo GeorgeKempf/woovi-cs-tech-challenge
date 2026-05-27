@@ -28,7 +28,7 @@ E depois confirmaria se esse problema aconteceu apenas com esses casos ou com ou
 
 Boa tarde tudo bem?
 
-Entendi a situação e vou verificar melhor o que pode ter acontecido. Vou confirmar os comprovantes que você me enviou e validar se houve mais casos parecidos nesse período
+Entendi a situação e vou verificar melhor o que pode ter acontecido. Vou confirmar os comprovantes que você me enviou e validar se houve mais casos parecidos nesse período.
 
 Vou confirmar isso o mais rapido possivel, assim que eu tiver mais informações sobre o que aconteceu, retorno para você por aqui.
 

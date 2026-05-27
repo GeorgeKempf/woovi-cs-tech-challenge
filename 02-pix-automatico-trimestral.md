@@ -34,6 +34,7 @@ Caso eu confirmasse alguma divergência entre painel, API ou documentação, abr
 Boa tarde, tudo bem?
 
 Entendi o problema, vou comparar o painel, API e documentação e verificar se existe alguma divergencia entre eles, porque voce citou que na documentação aparecem apenas `WEEKLY`, `MONTHLY`, `SEMIANNUALLY` e `ANNUALLY`, enquanto no painel o trimestral funcionou normalmente.
+
 Também vou confirmar se a API espera outro valor para a frequencia trimestral ou se existe alguma diferença entre o que está no painel e o que a API aceita.
 
 Vou verificar a situação, assim que eu tiver uma resposta clara do que aconteceu eu lhe retorno.

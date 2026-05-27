@@ -18,7 +18,7 @@ Depois eu verificaria se essas informações de destinatário, `endToEndId` ou `
 
 Em seguida verificaria se a documentação fala algo sobre essas informações. Caso não tenha, seria interessante sugerir essa melhoria.
 
-## 3. Hipóteses 
+## 3. Hipóteses
 
 1. **Os dados existem, mas não aparecem no extrato**
    - Pela documentação, o reembolso possui campos como `correlationID`.

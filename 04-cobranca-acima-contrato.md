@@ -28,7 +28,7 @@ Verificaria o extrato/transações para ver se esta de acordo com o contrato e o
 
 ## 4. Mensagem para o cliente
 
-Boa tarde tudo bem?
+Boa tarde, tudo bem?
 
 Entendo sua frustração com essa diferença dos valores e vou verificar melhor a situação para entender o que esta acontecendo.
 

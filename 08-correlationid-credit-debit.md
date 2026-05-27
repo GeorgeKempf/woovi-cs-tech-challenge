@@ -49,4 +49,3 @@ Caso eu confirme que atualmente não existe endpoint retornando `correlationID` 
 Caso exista alguma outra forma de consultar essas informações, eu orientaria o cliente sobre como utilizar da melhor forma.
 
 Também verificaria se a documentação dos endpoints de subconta poderia ser mais clara em relação às informações retornadas nessas movimentações internas.
-
